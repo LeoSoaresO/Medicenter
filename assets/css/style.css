@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff4e7;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+nav ul,
+nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    margin: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+nav .active a,
+nav a:hover {
+    background-color: #8ed2e8;
+    color: #fff4e7;
+    transition: 0.7s;
+}
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/covid-19.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 505px;
+}
