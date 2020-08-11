@@ -184,7 +184,7 @@ nav a:hover {
 }
 .title-text{
     color: #000000;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
 }
 .title-bar{
@@ -192,6 +192,11 @@ nav a:hover {
     height: 3px;
     background-color: black;
     margin-top: 10px;
+}
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
 }
 article .news-data{
     display: flex;
@@ -213,6 +218,24 @@ article .news-thumb{
     margin-top: 30px
 }
 article .news-thumb img {
-    width: 350px;
+    width: 100%;
     height: auto;
+}
+article .news-title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+article .news-resume{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
 }
