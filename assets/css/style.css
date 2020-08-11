@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Quicksand', sans-serif;
 }
 body{
     background-color: #fff4e7;
@@ -40,6 +41,7 @@ nav a {
     margin: 3px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    color: #000000;
 }
 nav .active a,
 nav a:hover {
@@ -68,7 +70,6 @@ nav a:hover {
     font-size: 70px;
     text-shadow: 1px 1px 0px black;
     color:#fff4e7;
-    font-family: 'Quicksand', sans-serif;
     max-width: 450px;
     margin: 0;
     padding: 0;
@@ -78,7 +79,6 @@ nav a:hover {
     font-size: 30px;
     text-shadow: 0.5px 0.5px 0px black;
     color: #fff4e7;
-    font-family: 'Quicksand', sans-serif;
     font-weight: 300;
     max-width: 350px;
     margin: 0;
@@ -103,4 +103,16 @@ nav a:hover {
 }
 .banner-3{
     background-color: #1e8094;
+}
+.banner-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 15px;
+    color: #fff4e7;
+}
+.banner-desc{
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 15px;
+    color: #fff4e7;
 }
