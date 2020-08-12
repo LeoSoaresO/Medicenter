@@ -320,6 +320,21 @@ footer{
     background-color:  #1e1e1e;
     transition: 0.7s ease-in;
 }
+#enviar{
+    text-decoration: none;
+    padding: 12px 15px;
+    border: 3px solid #1e1e1e;
+    background-color: transparent;
+    color: #1e1e1e;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+}
+#enviar:hover{
+    color: #fff4e7;
+    background-color:  #1e1e1e;
+    transition: 0.7s ease-in;
+}
 .departs img{
     width: 130px;
     height: auto;
