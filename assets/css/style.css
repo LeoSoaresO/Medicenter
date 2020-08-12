@@ -291,12 +291,35 @@ footer{
     margin-top: 30px;
     padding: 10px 0px;
 }
+.menu-mobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.mm-line{
+    height: 3px;
+    background-color: #1e1e1e;
+}
+.conteudo-side{
+    display: flex;
+    flex-wrap: wrap;
+}
+.departs img{
+    width: 130px;
+    height: auto;
+    margin: 3px;
+}
 @media (max-width:600px){
         .banner-title h1{
             font-size: 50px;
+            margin-left: 20px;
         }
         .banner-title h2{
             font-size: 18px;
+            margin-left: 20px;
         }
         .banner-options {
             height: auto;
@@ -335,5 +358,23 @@ footer{
         }
         nav ul {
             flex-direction: column;
+            display: none;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            background-color: #fff4e7;
         }
+        nav a{
+            margin-left: 20px;
+        }
+        .menu-mobile{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+}
+@media (max-width:320px) {
+    .side {
+        margin-left: 10px;
+    }
 }
