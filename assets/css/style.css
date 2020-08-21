@@ -43,8 +43,12 @@ nav a {
     font-weight: bold;
     color: #1e1e1e;
 }
-nav .active a,
 nav a:hover {
+    background-color: #8ed2e8;
+    color: #fff4e7;
+    transition: 0.7s;
+}
+.ativo{
     background-color: #8ed2e8;
     color: #fff4e7;
     transition: 0.7s;
@@ -368,6 +372,37 @@ footer{
     font-size: 20px;
     font-weight: 500;
     border: 2px solid #1e1e1e;
+}
+.btn-branco{
+    padding-top: 20px;
+}
+.btn-branco a{
+    text-decoration: none;
+    padding: 12px 15px;
+    border: 3px solid #fff4e7;
+    background-color: transparent;
+    color: #fff4e7;
+    font-weight: 500;
+}
+.btn-branco a:hover{
+    color: #1e1e1e;
+    background-color:  #fff4e7;
+    transition: 0.7s ease-in;
+}
+.margin{
+    margin: 0 auto;
+    flex-direction: column;
+}
+.sobre{
+    max-width: 500px;
+}
+.sobre p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.image img{
+    width: 500px;
+    margin-bottom: 40px;
 }
 @media (max-width:600px){
         .banner-title h1{
